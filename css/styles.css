@@ -34,3 +34,11 @@ the min-height property has no effect.
         element's container equally – and thus the element gets centered.
         */
         }
+
+        body{
+            padding:50px 0px 0px 0px;
+            z-index:0;
+            }
+            .navbar-dark {
+            background-color: #512DA8;
+            }
