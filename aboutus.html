@@ -18,12 +18,11 @@
         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
 
-
         <title>Ristorante Con Fusion: About Us</title>
-
     </head>
 
 <body>
+    <!-- Navigation bar-->
     <nav class="navbar navbar-dark navbar-expand-sm  fixed-top">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
@@ -52,7 +51,7 @@
         </div>
     </nav>
 
-
+    <!--Jumbotron header -->
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
@@ -69,6 +68,7 @@
         </div>
     </header>
 
+    <!--Content area-->
     <div class="container">
         <div class="row">
             <ol class="col-12 breadcrumb">
@@ -81,6 +81,7 @@
             </div>
         </div>
 
+        <!--Row content 1 -->
         <div class="row row-content">
             <div class="col-12 col-sm-6">
                 <h2>Our History</h2>
@@ -95,8 +96,7 @@
             <div class="col-12 col-sm-6">
                 <div class="col-12 col-sm-6">
                     <div class="card">
-                        <h3 class="card-header bg-primary text-white">Facts At a
-                            Glance</h3>
+                        <h3 class="card-header bg-primary text-white">Facts At a Glance</h3>
                         <div class="card-body">
                             <dl class="row">
                                 <dt class="col-6">Started</dt>
@@ -111,6 +111,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
                 <div class="col-12">
                     <div class="card card-body bg-light">
@@ -126,42 +127,73 @@
                         </blockquote>
                     </div>
                 </div>
-
-
-            </div>
+            
         </div>
 
-
-        <div class="row row-content"></div>
+        <!--Row content 2 -->
+        <div class="row row-content">
         <div class="col">
             <h2>Corporate Leadership</h2>
-            <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
+            <!--Tabbed navigation START-->
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                <a class="nav-link active" href="#peter"
+                role="tab" data-toggle="tab">Peter Pan, CEO</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#danny" role="tab"
+                data-toggle="tab">Danny Witherspoon, CFO</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#agumbe" role="tab"
+                data-toggle="tab">Agumbe Tang, CTO</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#alberto" role="tab"
+                data-toggle="tab">Alberto Somayya, Exec. Chef</a>
+                </li>
+                </ul>
+            <!--Tabbed navigation END-->
 
+
+
+            <div class="tab-contet">
+
+            <div role="tabpanel" class="tab-pane fade show active" id="peter">    
+            <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
 
             <p class="d-none d-sm-block">Our CEO, Peter, credits his hardworking East Asian immigrant parents who
                 undertook the arduous journey to the shores of America with the intention of giving their children the
                 best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is
                 available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for
                 which <em>The Frying Pan</em> became well known. He brings his zeal for fusion cuisines to this
-                restaurant, pioneering cross-cultural culinary connections.</p>
+                restaurant, pioneering cross-cultural culinary connections.</p> 
+            </div>
 
+            <div role="tabpanel" class="tab-pane fade" id="danny">  
             <h3>Dhanasekaran Witherspoon <small>Chief Food Osfficer</small></h3>
             <p class="d-none d-sm-block">Our CFO, Danny, as he is affectionately referred to by his colleagues, comes
                 from a long established family tradition in farming and produce. His experiences growing up on a farm in
                 the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his
-                own words, <em>Everything that runs, wins, and everything that stays, pays!</em></p>
+                own words, <em>Everything that runs, wins, and everything that stays, pays!</em></p> 
+            </div> <!--end tab-content-->
 
+            <div role="tabpanel" class="tab-pane fade" id="agumbe">
             <h3>Agumbe Tang <small>Chief Taste Officer</small></h3>
             <p class="d-none d-sm-block">Blessed with the most discerning gustatory sense, Agumbe, our CTO, personally
                 ensures that every dish that we serve meets his exacting tastes. Our chefs dread the tongue lashing that
                 ensues if their dish does not meet his exacting standards. He lives by his motto, <em>You click only if
                     you survive my lick.</em></p>
+            </div>
 
+            <div role="tabpanel" class="tab-pane fade" id="alberto">
             <h3>Alberto Somayya <small>Executive Chef</small></h3>
             <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience
                 having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering
                 Indo-Italian fusion experiences. He says, <em>Put together the cuisines from the two craziest cultures,
                     and you get a winning hit! Amma Mia!</em></p>
+                    </div>
+                </div>
         </div>
     </div>
 
@@ -169,9 +201,9 @@
         <div class="col-12 col-sm-9">
             <h2>Facts &amp; Figures</h2>
             <div class="table-responsive">
-                <table class="table table-striped">
+                <table class="table table-sbbbbriped">
                     <thead class="thead-dark">
-                        <tr>
+                        <tr>zzz
                             <th>&nbsp;</th>
                             <th>2013</th>
                             <th>2014</th>
@@ -213,6 +245,7 @@
     </div>
 
     </div>
+</div>
 
     <footer class="footer">
         <div class="container">
